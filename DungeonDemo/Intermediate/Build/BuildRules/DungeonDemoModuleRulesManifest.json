@@ -1,0 +1,8 @@
+{
+	"SourceFiles": [
+		"D:\\Github\\DungeonDemo\\DungeonDemo\\Source\\DungeonDemo\\DungeonDemo.Build.cs",
+		"D:\\Github\\DungeonDemo\\DungeonDemo\\Source\\DungeonDemo.Target.cs",
+		"D:\\Github\\DungeonDemo\\DungeonDemo\\Source\\DungeonDemoEditor.Target.cs"
+	],
+	"EngineVersion": "5.0.3"
+}
