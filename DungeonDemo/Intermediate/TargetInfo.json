@@ -1,0 +1,14 @@
+{
+	"Targets": [
+		{
+			"Name": "DungeonDemo",
+			"Path": "D:\\Github\\DungeonDemo\\DungeonDemo\\Source\\DungeonDemo.Target.cs",
+			"Type": "Game"
+		},
+		{
+			"Name": "DungeonDemoEditor",
+			"Path": "D:\\Github\\DungeonDemo\\DungeonDemo\\Source\\DungeonDemoEditor.Target.cs",
+			"Type": "Editor"
+		}
+	]
+}
