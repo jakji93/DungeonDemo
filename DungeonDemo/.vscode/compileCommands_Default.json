@@ -1,0 +1,67 @@
+[
+	{
+		"file": "D:\\Github\\DungeonDemo\\DungeonDemo\\Source\\DungeonDemo\\DungeonDemo.Build.cs",
+		"command": "\"C:\\Program Files (x86)\\Microsoft Visual Studio\\2019\\Community\\VC\\Tools\\MSVC\\14.29.30133\\bin\\HostX64\\x64\\cl.exe\" @D:\\Github\\DungeonDemo\\DungeonDemo\\.vscode\\compileCommands_Default\\DungeonDemo.211.rsp",
+		"directory": "C:\\Program Files\\Epic Games\\UE_5.0\\Engine\\Source"
+	},
+	{
+		"file": "D:\\Github\\DungeonDemo\\DungeonDemo\\Source\\DungeonDemo\\DungeonDemo.cpp",
+		"command": "\"C:\\Program Files (x86)\\Microsoft Visual Studio\\2019\\Community\\VC\\Tools\\MSVC\\14.29.30133\\bin\\HostX64\\x64\\cl.exe\" @D:\\Github\\DungeonDemo\\DungeonDemo\\.vscode\\compileCommands_Default\\DungeonDemo.211.rsp",
+		"directory": "C:\\Program Files\\Epic Games\\UE_5.0\\Engine\\Source"
+	},
+	{
+		"file": "D:\\Github\\DungeonDemo\\DungeonDemo\\Source\\DungeonDemo\\DungeonDemo.h",
+		"command": "\"C:\\Program Files (x86)\\Microsoft Visual Studio\\2019\\Community\\VC\\Tools\\MSVC\\14.29.30133\\bin\\HostX64\\x64\\cl.exe\" @D:\\Github\\DungeonDemo\\DungeonDemo\\.vscode\\compileCommands_Default\\DungeonDemo.211.rsp",
+		"directory": "C:\\Program Files\\Epic Games\\UE_5.0\\Engine\\Source"
+	},
+	{
+		"file": "D:\\Github\\DungeonDemo\\DungeonDemo\\Source\\DungeonDemo\\DungeonDemoCharacter.cpp",
+		"command": "\"C:\\Program Files (x86)\\Microsoft Visual Studio\\2019\\Community\\VC\\Tools\\MSVC\\14.29.30133\\bin\\HostX64\\x64\\cl.exe\" @D:\\Github\\DungeonDemo\\DungeonDemo\\.vscode\\compileCommands_Default\\DungeonDemo.211.rsp",
+		"directory": "C:\\Program Files\\Epic Games\\UE_5.0\\Engine\\Source"
+	},
+	{
+		"file": "D:\\Github\\DungeonDemo\\DungeonDemo\\Source\\DungeonDemo\\DungeonDemoCharacter.h",
+		"command": "\"C:\\Program Files (x86)\\Microsoft Visual Studio\\2019\\Community\\VC\\Tools\\MSVC\\14.29.30133\\bin\\HostX64\\x64\\cl.exe\" @D:\\Github\\DungeonDemo\\DungeonDemo\\.vscode\\compileCommands_Default\\DungeonDemo.211.rsp",
+		"directory": "C:\\Program Files\\Epic Games\\UE_5.0\\Engine\\Source"
+	},
+	{
+		"file": "D:\\Github\\DungeonDemo\\DungeonDemo\\Source\\DungeonDemo\\DungeonDemoGameMode.cpp",
+		"command": "\"C:\\Program Files (x86)\\Microsoft Visual Studio\\2019\\Community\\VC\\Tools\\MSVC\\14.29.30133\\bin\\HostX64\\x64\\cl.exe\" @D:\\Github\\DungeonDemo\\DungeonDemo\\.vscode\\compileCommands_Default\\DungeonDemo.211.rsp",
+		"directory": "C:\\Program Files\\Epic Games\\UE_5.0\\Engine\\Source"
+	},
+	{
+		"file": "D:\\Github\\DungeonDemo\\DungeonDemo\\Source\\DungeonDemo\\DungeonDemoGameMode.h",
+		"command": "\"C:\\Program Files (x86)\\Microsoft Visual Studio\\2019\\Community\\VC\\Tools\\MSVC\\14.29.30133\\bin\\HostX64\\x64\\cl.exe\" @D:\\Github\\DungeonDemo\\DungeonDemo\\.vscode\\compileCommands_Default\\DungeonDemo.211.rsp",
+		"directory": "C:\\Program Files\\Epic Games\\UE_5.0\\Engine\\Source"
+	},
+	{
+		"file": "D:\\Github\\DungeonDemo\\DungeonDemo\\Source\\DungeonDemo\\DungeonDemoProjectile.cpp",
+		"command": "\"C:\\Program Files (x86)\\Microsoft Visual Studio\\2019\\Community\\VC\\Tools\\MSVC\\14.29.30133\\bin\\HostX64\\x64\\cl.exe\" @D:\\Github\\DungeonDemo\\DungeonDemo\\.vscode\\compileCommands_Default\\DungeonDemo.211.rsp",
+		"directory": "C:\\Program Files\\Epic Games\\UE_5.0\\Engine\\Source"
+	},
+	{
+		"file": "D:\\Github\\DungeonDemo\\DungeonDemo\\Source\\DungeonDemo\\DungeonDemoProjectile.h",
+		"command": "\"C:\\Program Files (x86)\\Microsoft Visual Studio\\2019\\Community\\VC\\Tools\\MSVC\\14.29.30133\\bin\\HostX64\\x64\\cl.exe\" @D:\\Github\\DungeonDemo\\DungeonDemo\\.vscode\\compileCommands_Default\\DungeonDemo.211.rsp",
+		"directory": "C:\\Program Files\\Epic Games\\UE_5.0\\Engine\\Source"
+	},
+	{
+		"file": "D:\\Github\\DungeonDemo\\DungeonDemo\\Source\\DungeonDemo\\TP_PickUpComponent.cpp",
+		"command": "\"C:\\Program Files (x86)\\Microsoft Visual Studio\\2019\\Community\\VC\\Tools\\MSVC\\14.29.30133\\bin\\HostX64\\x64\\cl.exe\" @D:\\Github\\DungeonDemo\\DungeonDemo\\.vscode\\compileCommands_Default\\DungeonDemo.211.rsp",
+		"directory": "C:\\Program Files\\Epic Games\\UE_5.0\\Engine\\Source"
+	},
+	{
+		"file": "D:\\Github\\DungeonDemo\\DungeonDemo\\Source\\DungeonDemo\\TP_PickUpComponent.h",
+		"command": "\"C:\\Program Files (x86)\\Microsoft Visual Studio\\2019\\Community\\VC\\Tools\\MSVC\\14.29.30133\\bin\\HostX64\\x64\\cl.exe\" @D:\\Github\\DungeonDemo\\DungeonDemo\\.vscode\\compileCommands_Default\\DungeonDemo.211.rsp",
+		"directory": "C:\\Program Files\\Epic Games\\UE_5.0\\Engine\\Source"
+	},
+	{
+		"file": "D:\\Github\\DungeonDemo\\DungeonDemo\\Source\\DungeonDemo\\TP_WeaponComponent.cpp",
+		"command": "\"C:\\Program Files (x86)\\Microsoft Visual Studio\\2019\\Community\\VC\\Tools\\MSVC\\14.29.30133\\bin\\HostX64\\x64\\cl.exe\" @D:\\Github\\DungeonDemo\\DungeonDemo\\.vscode\\compileCommands_Default\\DungeonDemo.211.rsp",
+		"directory": "C:\\Program Files\\Epic Games\\UE_5.0\\Engine\\Source"
+	},
+	{
+		"file": "D:\\Github\\DungeonDemo\\DungeonDemo\\Source\\DungeonDemo\\TP_WeaponComponent.h",
+		"command": "\"C:\\Program Files (x86)\\Microsoft Visual Studio\\2019\\Community\\VC\\Tools\\MSVC\\14.29.30133\\bin\\HostX64\\x64\\cl.exe\" @D:\\Github\\DungeonDemo\\DungeonDemo\\.vscode\\compileCommands_Default\\DungeonDemo.211.rsp",
+		"directory": "C:\\Program Files\\Epic Games\\UE_5.0\\Engine\\Source"
+	}
+]

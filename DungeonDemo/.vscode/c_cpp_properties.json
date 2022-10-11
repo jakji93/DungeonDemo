@@ -1,0 +1,19 @@
+{
+    "configurations": [
+        {
+            "name": "DungeonDemoEditor Editor Win64 Development (DungeonDemo)",
+            "intelliSenseMode": "msvc-x64",
+            "compileCommands": "D:\\Github\\DungeonDemo\\DungeonDemo\\.vscode\\compileCommands_DungeonDemo.json",
+            "cStandard": "c17",
+            "cppStandard": "c++17"
+        },
+        {
+            "name": "Win32",
+            "intelliSenseMode": "msvc-x64",
+            "compileCommands": "D:\\Github\\DungeonDemo\\DungeonDemo\\.vscode\\compileCommands_Default.json",
+            "cStandard": "c17",
+            "cppStandard": "c++17"
+        }
+    ],
+    "version": 4
+}
