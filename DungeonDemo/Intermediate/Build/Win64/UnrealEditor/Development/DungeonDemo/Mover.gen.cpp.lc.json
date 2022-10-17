@@ -1,0 +1,15 @@
+{
+    "Version": "1.2",
+    "Data": {
+        "Source": "d:\\github\\dungeondemo\\dungeondemo\\intermediate\\build\\win64\\unrealeditor\\inc\\dungeondemo\\mover.gen.cpp",
+        "ProvidedModule": "",
+        "PCH": "d:\\github\\dungeondemo\\dungeondemo\\intermediate\\build\\win64\\dungeondemoeditor\\development\\engine\\sharedpch.engine.shadowerrors.h.pch",
+        "Includes": [
+            "d:\\github\\dungeondemo\\dungeondemo\\intermediate\\build\\win64\\unrealeditor\\development\\dungeondemo\\definitions.dungeondemo.h",
+            "d:\\github\\dungeondemo\\dungeondemo\\source\\dungeondemo\\mover.h",
+            "d:\\github\\dungeondemo\\dungeondemo\\intermediate\\build\\win64\\unrealeditor\\inc\\dungeondemo\\mover.generated.h"
+        ],
+        "ImportedModules": [],
+        "ImportedHeaderUnits": []
+    }
+}
