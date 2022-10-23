@@ -13,6 +13,7 @@ void EmptyLinkFunctionForGeneratedCodeMover() {}
 	DUNGEONDEMO_API UClass* Z_Construct_UClass_UMover();
 	ENGINE_API UClass* Z_Construct_UClass_UActorComponent();
 	UPackage* Z_Construct_UPackage__Script_DungeonDemo();
+	COREUOBJECT_API UScriptStruct* Z_Construct_UScriptStruct_FVector();
 // End Cross Module References
 	void UMover::StaticRegisterNativesUMover()
 	{
@@ -28,6 +29,20 @@ void EmptyLinkFunctionForGeneratedCodeMover() {}
 #if WITH_METADATA
 		static const UECodeGen_Private::FMetaDataPairParam Class_MetaDataParams[];
 #endif
+#if WITH_METADATA
+		static const UECodeGen_Private::FMetaDataPairParam NewProp_moveOffset_MetaData[];
+#endif
+		static const UECodeGen_Private::FStructPropertyParams NewProp_moveOffset;
+#if WITH_METADATA
+		static const UECodeGen_Private::FMetaDataPairParam NewProp_moveTime_MetaData[];
+#endif
+		static const UECodeGen_Private::FFloatPropertyParams NewProp_moveTime;
+#if WITH_METADATA
+		static const UECodeGen_Private::FMetaDataPairParam NewProp_shouldMove_MetaData[];
+#endif
+		static void NewProp_shouldMove_SetBit(void* Obj);
+		static const UECodeGen_Private::FBoolPropertyParams NewProp_shouldMove;
+		static const UECodeGen_Private::FPropertyParamsBase* const PropPointers[];
 		static const FCppClassTypeInfoStatic StaticCppClassTypeInfo;
 		static const UECodeGen_Private::FClassParams ClassParams;
 	};
@@ -43,6 +58,36 @@ void EmptyLinkFunctionForGeneratedCodeMover() {}
 		{ "ModuleRelativePath", "Mover.h" },
 	};
 #endif
+#if WITH_METADATA
+	const UECodeGen_Private::FMetaDataPairParam Z_Construct_UClass_UMover_Statics::NewProp_moveOffset_MetaData[] = {
+		{ "Category", "Mover" },
+		{ "ModuleRelativePath", "Mover.h" },
+	};
+#endif
+	const UECodeGen_Private::FStructPropertyParams Z_Construct_UClass_UMover_Statics::NewProp_moveOffset = { "moveOffset", nullptr, (EPropertyFlags)0x0040000000000001, UECodeGen_Private::EPropertyGenFlags::Struct, RF_Public|RF_Transient|RF_MarkAsNative, 1, STRUCT_OFFSET(UMover, moveOffset), Z_Construct_UScriptStruct_FVector, METADATA_PARAMS(Z_Construct_UClass_UMover_Statics::NewProp_moveOffset_MetaData, UE_ARRAY_COUNT(Z_Construct_UClass_UMover_Statics::NewProp_moveOffset_MetaData)) };
+#if WITH_METADATA
+	const UECodeGen_Private::FMetaDataPairParam Z_Construct_UClass_UMover_Statics::NewProp_moveTime_MetaData[] = {
+		{ "Category", "Mover" },
+		{ "ModuleRelativePath", "Mover.h" },
+	};
+#endif
+	const UECodeGen_Private::FFloatPropertyParams Z_Construct_UClass_UMover_Statics::NewProp_moveTime = { "moveTime", nullptr, (EPropertyFlags)0x0040000000000001, UECodeGen_Private::EPropertyGenFlags::Float, RF_Public|RF_Transient|RF_MarkAsNative, 1, STRUCT_OFFSET(UMover, moveTime), METADATA_PARAMS(Z_Construct_UClass_UMover_Statics::NewProp_moveTime_MetaData, UE_ARRAY_COUNT(Z_Construct_UClass_UMover_Statics::NewProp_moveTime_MetaData)) };
+#if WITH_METADATA
+	const UECodeGen_Private::FMetaDataPairParam Z_Construct_UClass_UMover_Statics::NewProp_shouldMove_MetaData[] = {
+		{ "Category", "Mover" },
+		{ "ModuleRelativePath", "Mover.h" },
+	};
+#endif
+	void Z_Construct_UClass_UMover_Statics::NewProp_shouldMove_SetBit(void* Obj)
+	{
+		((UMover*)Obj)->shouldMove = 1;
+	}
+	const UECodeGen_Private::FBoolPropertyParams Z_Construct_UClass_UMover_Statics::NewProp_shouldMove = { "shouldMove", nullptr, (EPropertyFlags)0x0040000000000001, UECodeGen_Private::EPropertyGenFlags::Bool | UECodeGen_Private::EPropertyGenFlags::NativeBool, RF_Public|RF_Transient|RF_MarkAsNative, 1, sizeof(bool), sizeof(UMover), &Z_Construct_UClass_UMover_Statics::NewProp_shouldMove_SetBit, METADATA_PARAMS(Z_Construct_UClass_UMover_Statics::NewProp_shouldMove_MetaData, UE_ARRAY_COUNT(Z_Construct_UClass_UMover_Statics::NewProp_shouldMove_MetaData)) };
+	const UECodeGen_Private::FPropertyParamsBase* const Z_Construct_UClass_UMover_Statics::PropPointers[] = {
+		(const UECodeGen_Private::FPropertyParamsBase*)&Z_Construct_UClass_UMover_Statics::NewProp_moveOffset,
+		(const UECodeGen_Private::FPropertyParamsBase*)&Z_Construct_UClass_UMover_Statics::NewProp_moveTime,
+		(const UECodeGen_Private::FPropertyParamsBase*)&Z_Construct_UClass_UMover_Statics::NewProp_shouldMove,
+	};
 	const FCppClassTypeInfoStatic Z_Construct_UClass_UMover_Statics::StaticCppClassTypeInfo = {
 		TCppClassTypeTraits<UMover>::IsAbstract,
 	};
@@ -52,11 +97,11 @@ void EmptyLinkFunctionForGeneratedCodeMover() {}
 		&StaticCppClassTypeInfo,
 		DependentSingletons,
 		nullptr,
-		nullptr,
+		Z_Construct_UClass_UMover_Statics::PropPointers,
 		nullptr,
 		UE_ARRAY_COUNT(DependentSingletons),
 		0,
-		0,
+		UE_ARRAY_COUNT(Z_Construct_UClass_UMover_Statics::PropPointers),
 		0,
 		0x00B000A4u,
 		METADATA_PARAMS(Z_Construct_UClass_UMover_Statics::Class_MetaDataParams, UE_ARRAY_COUNT(Z_Construct_UClass_UMover_Statics::Class_MetaDataParams))
@@ -79,9 +124,9 @@ void EmptyLinkFunctionForGeneratedCodeMover() {}
 		static const FClassRegisterCompiledInInfo ClassInfo[];
 	};
 	const FClassRegisterCompiledInInfo Z_CompiledInDeferFile_FID_DungeonDemo_Source_DungeonDemo_Mover_h_Statics::ClassInfo[] = {
-		{ Z_Construct_UClass_UMover, UMover::StaticClass, TEXT("UMover"), &Z_Registration_Info_UClass_UMover, CONSTRUCT_RELOAD_VERSION_INFO(FClassReloadVersionInfo, sizeof(UMover), 3198169146U) },
+		{ Z_Construct_UClass_UMover, UMover::StaticClass, TEXT("UMover"), &Z_Registration_Info_UClass_UMover, CONSTRUCT_RELOAD_VERSION_INFO(FClassReloadVersionInfo, sizeof(UMover), 2284206041U) },
 	};
-	static FRegisterCompiledInInfo Z_CompiledInDeferFile_FID_DungeonDemo_Source_DungeonDemo_Mover_h_2373241930(TEXT("/Script/DungeonDemo"),
+	static FRegisterCompiledInInfo Z_CompiledInDeferFile_FID_DungeonDemo_Source_DungeonDemo_Mover_h_3468218905(TEXT("/Script/DungeonDemo"),
 		Z_CompiledInDeferFile_FID_DungeonDemo_Source_DungeonDemo_Mover_h_Statics::ClassInfo, UE_ARRAY_COUNT(Z_CompiledInDeferFile_FID_DungeonDemo_Source_DungeonDemo_Mover_h_Statics::ClassInfo),
 		nullptr, 0,
 		nullptr, 0);
