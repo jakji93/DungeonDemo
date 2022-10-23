@@ -1,0 +1,15 @@
+{
+    "Version": "1.2",
+    "Data": {
+        "Source": "d:\\github\\dungeondemo\\dungeondemo\\intermediate\\build\\win64\\unrealgame\\inc\\dungeondemo\\tp_weaponcomponent.gen.cpp",
+        "ProvidedModule": "",
+        "PCH": "d:\\github\\dungeondemo\\dungeondemo\\intermediate\\build\\win64\\dungeondemo\\development\\engine\\sharedpch.engine.shadowerrors.h.pch",
+        "Includes": [
+            "d:\\github\\dungeondemo\\dungeondemo\\intermediate\\build\\win64\\unrealgame\\development\\dungeondemo\\definitions.dungeondemo.h",
+            "d:\\github\\dungeondemo\\dungeondemo\\source\\dungeondemo\\tp_weaponcomponent.h",
+            "d:\\github\\dungeondemo\\dungeondemo\\intermediate\\build\\win64\\unrealgame\\inc\\dungeondemo\\tp_weaponcomponent.generated.h"
+        ],
+        "ImportedModules": [],
+        "ImportedHeaderUnits": []
+    }
+}
