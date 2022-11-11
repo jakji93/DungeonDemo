@@ -14,8 +14,18 @@ PRAGMA_DISABLE_DEPRECATION_WARNINGS
 #define DUNGEONDEMO_Grabber_generated_h
 
 #define FID_DungeonDemo_Source_DungeonDemo_Grabber_h_13_SPARSE_DATA
-#define FID_DungeonDemo_Source_DungeonDemo_Grabber_h_13_RPC_WRAPPERS
-#define FID_DungeonDemo_Source_DungeonDemo_Grabber_h_13_RPC_WRAPPERS_NO_PURE_DECLS
+#define FID_DungeonDemo_Source_DungeonDemo_Grabber_h_13_RPC_WRAPPERS \
+ \
+	DECLARE_FUNCTION(execGrab); \
+	DECLARE_FUNCTION(execRelease);
+
+
+#define FID_DungeonDemo_Source_DungeonDemo_Grabber_h_13_RPC_WRAPPERS_NO_PURE_DECLS \
+ \
+	DECLARE_FUNCTION(execGrab); \
+	DECLARE_FUNCTION(execRelease);
+
+
 #define FID_DungeonDemo_Source_DungeonDemo_Grabber_h_13_INCLASS_NO_PURE_DECLS \
 private: \
 	static void StaticRegisterNativesUGrabber(); \
