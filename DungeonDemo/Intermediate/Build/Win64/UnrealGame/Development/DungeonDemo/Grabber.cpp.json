@@ -7,6 +7,8 @@
         "Includes": [
             "d:\\github\\dungeondemo\\dungeondemo\\intermediate\\build\\win64\\unrealgame\\development\\dungeondemo\\definitions.dungeondemo.h",
             "d:\\github\\dungeondemo\\dungeondemo\\source\\dungeondemo\\grabber.h",
+            "c:\\program files\\epic games\\ue_5.0\\engine\\source\\runtime\\engine\\classes\\physicsengine\\physicshandlecomponent.h",
+            "c:\\program files\\epic games\\ue_5.0\\engine\\intermediate\\build\\win64\\unrealgame\\inc\\engine\\physicshandlecomponent.generated.h",
             "d:\\github\\dungeondemo\\dungeondemo\\intermediate\\build\\win64\\unrealgame\\inc\\dungeondemo\\grabber.generated.h"
         ],
         "ImportedModules": [],
