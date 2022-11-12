@@ -23,13 +23,13 @@ void EmptyLinkFunctionForGeneratedCodeDungeonDemo_init() {}
 				SingletonFuncArray,
 				UE_ARRAY_COUNT(SingletonFuncArray),
 				PKG_CompiledIn | 0x00000000,
-				0x8696D6F4,
-				0xE0C8FF46,
+				0xDD171BB7,
+				0x4D5871B3,
 				METADATA_PARAMS(nullptr, 0)
 			};
 			UECodeGen_Private::ConstructUPackage(Z_Registration_Info_UPackage__Script_DungeonDemo.OuterSingleton, PackageParams);
 		}
 		return Z_Registration_Info_UPackage__Script_DungeonDemo.OuterSingleton;
 	}
-	static FRegisterCompiledInInfo Z_CompiledInDeferPackage_UPackage__Script_DungeonDemo(Z_Construct_UPackage__Script_DungeonDemo, TEXT("/Script/DungeonDemo"), Z_Registration_Info_UPackage__Script_DungeonDemo, CONSTRUCT_RELOAD_VERSION_INFO(FPackageReloadVersionInfo, 0x8696D6F4, 0xE0C8FF46));
+	static FRegisterCompiledInInfo Z_CompiledInDeferPackage_UPackage__Script_DungeonDemo(Z_Construct_UPackage__Script_DungeonDemo, TEXT("/Script/DungeonDemo"), Z_Registration_Info_UPackage__Script_DungeonDemo, CONSTRUCT_RELOAD_VERSION_INFO(FPackageReloadVersionInfo, 0xDD171BB7, 0x4D5871B3));
 PRAGMA_ENABLE_DEPRECATION_WARNINGS
