@@ -49,6 +49,7 @@ void UGrabber::Release()
 	if(physicsHandle->GetGrabbedComponent() != nullptr)
 	{
 		physicsHandle->GetGrabbedComponent()->WakeAllRigidBodies();
+		physicsHandle->GetGrabbedComponent()->GetOwner()->Tags.Remove("Grabbed");
 		physicsHandle->ReleaseComponent();
 		UE_LOG(LogTemp, Display, TEXT("released object"));
 	}
@@ -66,6 +67,7 @@ void UGrabber::Grab()
 	if(hasHit) {
 		UPrimitiveComponent* hitComponent = hitResult.GetComponent();
 		hitComponent->WakeAllRigidBodies();
+		hitResult.GetActor()->Tags.Add("Grabbed");
 		physicsHandle->GrabComponentAtLocationWithRotation(
 			hitComponent,
 			NAME_None,
